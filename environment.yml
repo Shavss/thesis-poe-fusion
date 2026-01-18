@@ -1,0 +1,36 @@
+name: thesis-py312
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - geopandas
+  - jupyterlab
+  - matplotlib
+  - networkx
+  - pandas
+  - pyproj
+  - rasterio
+  - rtree
+  - scikit-learn
+  - shapely=2
+  - pyarrow
+  - lxml
+  - duckdb
+  - tqdm
+  - statsmodels
+  - seaborn
+  - shap=0.48
+  - numba[version='>=0.59,<0.62']
+  - numpy==1.26.4
+  - cartopy
+  - contextily
+  - xgboost
+  - optuna
+  - osmnx
+  - plotly
+  - cpuonly
+  - pytorch
+  - torchaudio
+  - torchvision
+prefix: /opt/anaconda3/envs/thesis-py312
