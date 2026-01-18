@@ -36,3 +36,9 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Track placeholder READMEs even though folders are ignored
+!data/README.md
+!models/README.md
+!outputs/README.md
+!cache/README.md
