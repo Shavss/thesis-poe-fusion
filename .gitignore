@@ -1,0 +1,38 @@
+# Big folders kept locally
+data/
+models/
+outputs/
+cache/
+Archive/
+test/
+plots*/
+**/worldcover_cache/
+**/_wx_cache*
+
+# Large artefacts
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.npz
+*.npy
+*.tif
+*.tiff
+*.zip
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/
+
+# Python / IDE / OS
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
