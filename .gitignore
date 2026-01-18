@@ -42,3 +42,6 @@ __pycache__/
 !models/README.md
 !outputs/README.md
 !cache/README.md
+
+notebooks/
+!notebooks/README.md
