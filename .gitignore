@@ -26,8 +26,8 @@ plots*/
 
 # Notebooks
 .ipynb_checkpoints/
-notebooks/
-
+#notebooks/
+archive/
 # Python / IDE / OS
 __pycache__/
 *.py[cod]
@@ -43,5 +43,10 @@ __pycache__/
 !outputs/README.md
 !cache/README.md
 
-notebooks/
+#notebooks/
 !notebooks/README.md
+
+# Python packaging artefacts
+*.egg-info/
+dist/
+build/
