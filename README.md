@@ -280,8 +280,6 @@ jupyter nbconvert --to notebook --execute notebooks/04_fusion_poe.ipynb \
   --output-dir outputs/fusion_poe
 ```
 
-### Why you saw `notebooks/outputs/...` and a `FileNotFoundError`
-
 `nbconvert` can treat `--output` as a *path relative to the notebook* unless you use `--output-dir`.  
 So this command:
 
@@ -305,8 +303,6 @@ Because data/models are not committed, a typical user workflow is:
    - `outputs/vision_resnet/`
    - `outputs/fusion_poe/`
 
-## Licence
-See `LICENSE`.
 
 ## Context feature engineering (`digital_naturalist.context_features`)
 
@@ -339,3 +335,6 @@ X_test  = prepare_X(test_df_feat,  feature_names)
 
 Note:
 - For paper/thesis-grade reproducibility, prefer using a **fixed** `feature_names_*.csv` checked into `models/context/` and do not regenerate features silently.
+
+## Licence
+See `LICENSE`.
