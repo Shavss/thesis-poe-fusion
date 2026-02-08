@@ -1,5 +1,30 @@
 project:
-  # All paths are relative to the repository root by default
-  gbif_dir: "data/amsterdam_2/train"
-  image_dir: "data/amsterdam_2/images_no_vespula2"
-  model_dir: "data/amsterdam_2/models_new"
+  # Always treat this as repo-relative (not CWD-relative)
+  project_root: "."
+
+data:
+  # Raw GBIF/context tables (local only; typically not committed)
+  gbif_train_dir: "data/amsterdam/train"
+  gbif_val_dir: "data/amsterdam/val"
+
+  # Images (local only; typically not committed)
+  image_root: "data/amsterdam/images_no_vespula"
+  image_train: "train"
+  image_val: "val"
+  image_test: "test"
+  image_test2: "test2"
+
+models:
+  root: "models"
+  context_dir: "models/context"
+  vision_dir: "models/vision"
+  vision_temps_dir: "models/vision/temperatures"
+
+outputs:
+  root: "outputs"
+  context_xgb: "outputs/context_xgb"
+  vision_resnet: "outputs/vision_resnet"
+  fusion_poe: "outputs/fusion_poe"
+
+artifacts:
+  root: "artifacts"
