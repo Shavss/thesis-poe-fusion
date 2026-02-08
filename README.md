@@ -4,10 +4,7 @@ This repository contains the code for a Master’s thesis on **context-aware ins
 
 - **Vision expert:** ResNet-18 (10 independent runs with different seeds)
 - **Context expert:** XGBoost Habitat Suitability Index (HSI)
-- **Fusion rule:**  
-$$
-p(y \mid x, c) \propto p_{\text{vis}}(y \mid x)\, p_{\text{ctx}}(y \mid c)
-$$
+- **Fusion rule:**  p(y | x, c) ∝ p_vis(y | x) · p_ctx(y | c)
 
 
 The project is designed to work in two modes:
