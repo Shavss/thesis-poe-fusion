@@ -1,5 +1,8 @@
-# Digital Naturalist — Context-Aware Urban Biodiversity Monitoring (PoE Fusion)
+<p align="center">
+  <img src="docs/architecture.png" alt="Project architecture" width="1000"/>
+</p>
 
+# Digital Naturalist — Context-Aware Urban Biodiversity Monitoring (PoE Fusion)
 This repository contains the code for a Master’s thesis on **context-aware insect species classification** using a **Bayesian Product of Experts (PoE)** late-fusion approach:
 
 - **Vision expert:** ResNet-18 (10 independent runs with different seeds)
